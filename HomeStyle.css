@@ -73,6 +73,11 @@
   margin: 0px;
   padding: 0px;
 }
+@media(max-width:100em){
+  #description{
+    left: 23vw;
+  }
+}
 /* asta e chestia care apare atunci cand tii mouseul pe o stire */
 .expand2{
   position: absolute;
@@ -124,14 +129,25 @@ sa apara descrierea */
   border: 4px solid black;
   z-index: 0;
 }
+@media(max-width:100em){
+  #stire1{
+    width: 32vw;
+  }
+}
 #stire2{
   position: absolute;
   height: 19.5em;
-  width: 32.6vw;
+  width: 32.7vw;
   top: 0px;
   left: 33vw;
   border: 4px solid black;
   z-index: 1;
+}
+@media(max-width:100em){
+  #stire2{
+    width: 32vw;
+    left: 32.7vw;
+  }
 }
 #stire3{
   position: absolute;
@@ -140,6 +156,11 @@ sa apara descrierea */
   right: 0em;
   border: 4px solid black;
   z-index: 2;
+}
+@media(max-width:100em){
+  #stire3{
+    width: 32vw;
+  }
 }
 /* aici incep descrierile articolelor */
 #sumary{
