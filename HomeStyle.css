@@ -1,4 +1,4 @@
-
+/* asta e div-ul cin care se afla toata partea de sus */
 #piece1{
   position: absolute;
   height: 30em;
@@ -6,6 +6,7 @@
   top: 0px;
   left: 0px;
 }
+/* imaginea de background */
 #headImg{
   position: relative;
   margin: 0px;
@@ -16,6 +17,7 @@
   height: 100%;
   z-index:-1;
 }
+/* titlul */
 .heading{
   position: absolute;
   top: 1em;
@@ -23,6 +25,7 @@
   padding: 0px;
   left: 45vw;
 }
+/* bara de navigatie la care mi trebuie sa facem dropdown button */
 .navbar{
   position: absolute;
   margin: 0px;
@@ -30,32 +33,37 @@
   top: 0px;
   list-style: none;
 }
+/* asta aranjeaza bara daca micsorezi tabul */
 @media(max-width: 100em){
   .navbar{
     left: -6vw;
   }
 }
+/* astea sunt elementele listei */
 .navbar li{
   display: inline;
   position: relative;
   margin: 10px;
-  font-size: 25px;
-  top: 5em;
-  left: 36vw;
+  font-size: 40px;
+  top: 3em;
+  left: 38vw;
 }
+/* descrierea site-ului pe care trebuie sa o regandim */
 #description{
   position: absolute;
-  top: 4em;
+  top: 5.5em;
   left: 29vw;
   max-width: 60%;
   font-size: 40px;
   text-align: center;
 }
+/* aranjeaza descrierea */
 @media(max-width:100em){
   #description{
     left: 23vw;
   }
 }
+/* asta e div-ul stirilor alea 3 */
 #stiri{
   position: absolute;
   top: 30em;
@@ -65,6 +73,7 @@
   margin: 0px;
   padding: 0px;
 }
+/* asta e chestia care apare atunci cand tii mouseul pe o stire */
 .expand2{
   position: absolute;
   top: 0px;
@@ -73,10 +82,11 @@
   margin: 0px;
   left: 0px;
   width:100%;
-  height: 6.5em;
+  height: 6.7em;
   background-color:white;
   z-index: 3;
 }
+/* descrierea fiecarei stiri */
 #hid1{
   position: absolute;
   padding: 2em;
@@ -92,7 +102,8 @@
   padding: 2em;
   display: none;
 }
-
+/* comanda ca atunci candesti cu mouseul pe o stire
+sa apara descrierea */
 #expand1:hover #hid1{
   display: block;
 }
@@ -102,9 +113,10 @@
 #expand3:hover #hid3{
   display: block;
 }
+/* linkuri spre stiri */
 #stire1{
   position: absolute;
-  height: 19em;
+  height: 19.5em;
   width: 32.6vw;
   left: 0px;
   margin: 0px;
@@ -114,22 +126,22 @@
 }
 #stire2{
   position: absolute;
-  height: 19em;
+  height: 19.5em;
   width: 32.6vw;
   top: 0px;
-  left: 33.2vw;
+  left: 33vw;
   border: 4px solid black;
   z-index: 1;
 }
 #stire3{
   position: absolute;
-  height: 19em;
+  height: 19.5em;
   width: 32.6vw;
   right: 0em;
   border: 4px solid black;
   z-index: 2;
 }
-
+/* aici incep descrierile articolelor */
 #sumary{
   position: absolute;
   width: 100%;
@@ -137,7 +149,8 @@
   top: 50em;
   height: 120em;
 }
-#sport{
+/* div care aranjeaza imaginea si paragraful */
+.wrapSum{
   position: relative;
   top: 0px;
   left: 0px;
@@ -145,30 +158,67 @@
   width: 100%;
   height: 30em;
 }
-#IT{
+/* casuta pentru paragraf */
+.wrap{
+  position: absolute;
+  top: 2em;
+  left: 10em;
+  height: 10em;
+  width: 30em;
+  background-color: /* gasim culoare dupa */ ;
+  border: 2px solid grey;
+  border-radius: 20em;
+}
+/* paragraful */
+.text{
+  position: relative;
+  top: 0px;;
+  left: 2em;
+  right: 2em;
+  font-size: 25px;
+}
+/* trebuie sa gasim o poza cu sporturi (de preferat vectorial) */
+#sportimg{
+  position: relative;
+  top: 0px;
+  left: 0px;
+  margin: 0px;
+  width: 100%;
+  background-color: blue;
+  height: 100%;
+}
+/* poza cu ceva computere */
+#ITimg{
   position: relative;
   top:0em;
   left: 0px;
   margin: 0px;
   width: 100%;
-  height: 30em;
+  height: 100%;
+  background-color: green;
+
 }
-#Economic{
+/* ceva cu bani */
+#Economicimg{
+  position: relative;
+  top:0em;
+  left: 0px;
+  background-color: grey;
+  margin: 0px;
+  width: 100%;
+  height: 100%;
+}
+/* aici putem sa punem o poza cu trump */
+#Politicimg{
   position: relative;
   top:0em;
   left: 0px;
   margin: 0px;
   width: 100%;
-  height: 30em;
+  height: 100%;
+  background-color: yellow;
 }
-#Politic{
-  position: relative;
-  top:0em;
-  left: 0px;
-  margin: 0px;
-  width: 100%;
-  height: 30em;
-}
+/* aici o sa fie datele paginii */
 #footer{
   position: absolute;
   top: 170em;
