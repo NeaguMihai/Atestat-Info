@@ -19,9 +19,42 @@
 .heading{
   position: absolute;
   top: 1em;
+  margin: 0px;
+  padding: 0px;
   left: 45vw;
-  margin-left: auto;
-  margin-right: auto;
+}
+.navbar{
+  position: absolute;
+  margin: 0px;
+  padding:0px;
+  top: 0px;
+  list-style: none;
+}
+@media(max-width: 100em){
+  .navbar{
+    left: -6vw;
+  }
+}
+.navbar li{
+  display: inline;
+  position: relative;
+  margin: 10px;
+  font-size: 25px;
+  top: 5em;
+  left: 36vw;
+}
+#description{
+  position: absolute;
+  top: 4em;
+  left: 29vw;
+  max-width: 60%;
+  font-size: 40px;
+  text-align: center;
+}
+@media(max-width:100em){
+  #description{
+    left: 23vw;
+  }
 }
 #stiri{
   position: absolute;
@@ -32,12 +65,109 @@
   margin: 0px;
   padding: 0px;
 }
-#descriere{
+.expand2{
+  position: absolute;
+  top: 0px;
+  color: black;
+  font-size: 30px;
+  margin: 0px;
+  left: 0px;
+  width:100%;
+  height: 6.5em;
+  background-color:white;
+  z-index: 3;
+}
+#hid1{
+  position: absolute;
+  padding: 2em;
+  display: none;
+}
+#hid2{
+  position: absolute;
+  padding: 2em;
+  display: none;
+}
+#hid3{
+  position: absolute;
+  padding: 2em;
+  display: none;
+}
+
+#expand1:hover #hid1{
+  display: block;
+}
+#expand2:hover #hid2{
+  display: block;
+}
+#expand3:hover #hid3{
+  display: block;
+}
+#stire1{
+  position: absolute;
+  height: 19em;
+  width: 32.6vw;
+  left: 0px;
+  margin: 0px;
+  padding: 0px;
+  border: 4px solid black;
+  z-index: 0;
+}
+#stire2{
+  position: absolute;
+  height: 19em;
+  width: 32.6vw;
+  top: 0px;
+  left: 33.2vw;
+  border: 4px solid black;
+  z-index: 1;
+}
+#stire3{
+  position: absolute;
+  height: 19em;
+  width: 32.6vw;
+  right: 0em;
+  border: 4px solid black;
+  z-index: 2;
+}
+
+#sumary{
   position: absolute;
   width: 100%;
   left: 0px;
   top: 50em;
   height: 120em;
+}
+#sport{
+  position: relative;
+  top: 0px;
+  left: 0px;
+  margin: 0px;
+  width: 100%;
+  height: 30em;
+}
+#IT{
+  position: relative;
+  top:0em;
+  left: 0px;
+  margin: 0px;
+  width: 100%;
+  height: 30em;
+}
+#Economic{
+  position: relative;
+  top:0em;
+  left: 0px;
+  margin: 0px;
+  width: 100%;
+  height: 30em;
+}
+#Politic{
+  position: relative;
+  top:0em;
+  left: 0px;
+  margin: 0px;
+  width: 100%;
+  height: 30em;
 }
 #footer{
   position: absolute;
@@ -47,4 +177,11 @@
   width: 100%;
   margin: 0px;
   padding: 0px;
+  background-color: grey;
+}
+#foot{
+  position: absolute;
+  top: 1em;
+  left: 4em;
+  font-size: 20px;
 }
