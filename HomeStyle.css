@@ -1,3 +1,7 @@
+body{
+  font-size: 14px;
+  font-family: Aleo, serif;
+}
 /* asta e div-ul cin care se afla toata partea de sus */
 #piece1{
   position: absolute;
@@ -20,16 +24,19 @@
 /* titlul */
 .heading{
   position: absolute;
+  font-family: title , sans-serif;
   top: 0.5em;
   margin: 0px;
-  font-size: 50px;
+  font-size: 40px;
   padding: 0px;
   left: 45vw;
 }
-/* bara de navigatie la care mi trebuie sa facem dropdown button */
+/* bara de navigatie la care mai trebuie sa facem dropdown button */
 .navbar {
   position: absolute;
   margin: 0px;
+  font-weight: normal;
+
   top: 0px;
   left: 0px;
 }
@@ -37,6 +44,7 @@
 @media(max-width: 100em){
   .navbar{
     left: -7vw;
+    font-size: 20px;
   }
 }
 /* butonul de dropdown */
@@ -48,11 +56,13 @@
   top: 3.6em;
   left: 37vw;
 }
+
 /* butonul stiri*/
 #newsType{
   border-radius: 30px;
   font-size: 40px;
-  position: relative;
+  position: absolute;
+  font-weight: normal;
   top: 0px;
   border: 2px black solid;
   padding-left: 0.5em;
@@ -61,15 +71,17 @@
 }
 /* lista de dropdown */
 .dropable{
-  position:relative;
+  position:absolute;
   width: 100%;
-  top: -30px;
-  left: 0em;
+  top: 1.7em;
+  left: -2em;
   margin: 0px;
   height: 100%;
   font-size: 30px;
   list-style: none;
   display: none;
+  font-weight: normal;
+
 }
 .dropable a{
   text-decoration: none;
@@ -78,8 +90,9 @@
 .dropable li{
   text-decoration: none;
   position: relative;
-  width: 5em;
+  width: 5.5em;
   top: 0px;
+  left: 0px;
   margin-top: 5px;
   padding-left: 1em;
   border-radius: 20px;
@@ -91,11 +104,14 @@
 }
 /* celalalt buton */
 #articole{
-  position: relative;
+  position: absolute;
   font-size: 40px;
   top: 2em;
+  font-weight: normal;
+  display: inline-block;
   left: 46vw;
-  padding-left: 1em;
+  padding-left:20px;
+  margin-right: 20px;
   width: 8em;
   border-radius: 30px;
   border: 2px solid black;

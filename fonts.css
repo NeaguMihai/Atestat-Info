@@ -1,0 +1,12 @@
+@font-face {
+    font-family: Aleo;
+    src: url(Fonturi/aleo-regular.eot);
+    src: url(Fonturi/aleo-regular.svg);
+    src: url(Fonturi/aleo-regular.ttf);
+    src: url(Fonturi/aleo-regular.woff);
+
+}
+@font-face{
+  font-family: title;
+  src: url(Fonts/title-text.ttf);
+}
