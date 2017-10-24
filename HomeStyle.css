@@ -1,0 +1,171 @@
+#header{
+  position: absolute;
+  background-color: black;
+  width: 100%;
+  height: 11em;
+  top: 0px;
+  left: 0px;
+  padding:0px;
+  margin:0px;
+}
+#logo{
+  position: relative;
+  font-size: 20px;
+  background-color: white;
+  width: 30rem;
+  height: 4rem;
+  top: 2.5rem;
+  left: 15vw;
+}
+#right{
+  float: right;
+  font-size: 50px;
+  position: absolute;
+  color: white;
+  top: 0.5rem;
+  right: 18rem;
+}
+#navbarPos{
+  position: absolute;
+  top: 6.8em;
+  float: right;
+  right: 3rem;
+}
+#navbar{
+  position: relative;
+  list-style: none;
+  right: 10rem;
+
+}
+
+#navbar li{
+  float: left;
+  }
+#navbar li a{
+  display: block;
+  position: relative;
+  text-decoration: none;
+  font-weight:900;
+  padding: 0.5rem 1.5rem;
+  font-size: 30px;
+  margin-left: 2px;
+  color: white;
+  border-top-right-radius:15px;
+  border-bottom-left-radius: 15px;
+}
+#navbar li a:hover{
+  background-color: #0a9c83;
+}
+#navbar li a:active{
+  background-color: #0a9c83;
+}
+#ad{
+  position: absolute;
+  background-color: grey;
+  width: 100%;
+  height: 40rem;
+  left: 0px;
+  top: 11rem;
+}
+#text{
+  font-size: 40px;
+}
+#text2{
+  font-size: 30px;
+}
+#poza{
+  position: absolute;
+  top: 2.5rem;
+  right: 20vw;
+  width: 40rem;
+  height: 35rem;
+
+}
+#textContainer{
+  position: absolute;
+  left: 15vw;
+  font-size: 20px;
+}
+#servicii{
+  position: absolute;
+  top:51rem;
+  width: 100%;
+  left: 0px;
+  height: 40rem;
+  background-color: blue;
+}
+#slogan{
+  position: absolute;
+  float: center;
+}
+@media (max-width:89rem) {
+  #text{
+    font-size: 20px;
+  }
+  #text2{
+    font-size: 20px;
+    top: 1rem;
+  }
+  #poza{
+    width: 25rem;
+    height: 20rem;
+  }
+}
+@media (max-width: 980px){
+  #text{
+    font-size: 20px;
+  }
+  #text2{
+    font-size: 20px;
+    top: 1rem;
+  }
+  #poza{
+    width: 20rem;
+    height: 15rem;
+  }
+}
+/*resize header*/
+@media (max-width: 89rem) {
+  #right{
+    top: 5rem;
+  }
+  #header{
+    height: 14rem;
+  }
+  #ad{
+    top: 14rem
+  }
+  #logo{
+    left: 27vw;
+  }
+  #navbarPos{
+    top: 9.8em;
+  }
+}
+@media (max-width: 900px) {
+  #logo{
+    width:20rem;
+    height: 3rem;
+    left: 27vw;
+  }
+  #right{
+    top: 3.5em;
+    font-size: 25px;
+  }
+  #header{
+    height: 10rem;
+  }
+  #ad{
+    top: 10rem;
+
+  }
+  #navbarPos{
+    top: 7.4rem;
+    right: 5vw;
+    }
+  #navbar li a{
+    font-size: 15px;
+    padding:0.3rem 1rem;
+  }
+}
+}
