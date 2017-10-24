@@ -97,7 +97,36 @@
 #slogan{
   margin: 0;
   position: absolute;
-  top: 50%;
+  width: 60%;
+  float: center;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%)
+}
+#titluSlogan{
+  position: absolute;
+  font-size: 70px;
+  float: center;
+  top: 5rem;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%)
+}
+#SloganServicii{
+  position: absolute;
+  font-size: 40px;
+  float: center;
+  top: 10rem;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%)
+}
+#readMore{
+  position: absolute;
+  font-size: 40px;
+  float: center;
+  padding: 20px;
+  top: 11rem;
   left: 50%;
   margin-right: -50%;
   transform: translate(-50%, -50%)
