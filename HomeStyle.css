@@ -92,7 +92,7 @@
   width: 100%;
   left: 0px;
   height: 40rem;
-  background-color: grey;
+  background-color: white;
 }
 #slogan{
   margin: 0;
@@ -101,35 +101,45 @@
   float: center;
   left: 50%;
   margin-right: -50%;
-  transform: translate(-50%, -50%)
+  transform: translate(-50%, -50%);
 }
 #titluSlogan{
   position: absolute;
   font-size: 70px;
+  font-weight: lighter;
   float: center;
   top: 5rem;
   left: 50%;
   margin-right: -50%;
-  transform: translate(-50%, -50%)
+  transform: translate(-50%, -50%);
 }
 #SloganServicii{
   position: absolute;
   font-size: 40px;
+  font-weight: lighter;
   float: center;
   top: 10rem;
   left: 50%;
   margin-right: -50%;
-  transform: translate(-50%, -50%)
+  transform: translate(-50%, -50%);
 }
 #readMore{
   position: absolute;
-  font-size: 40px;
+  text-decoration: none;
+  font-size: 30px;
   float: center;
   padding: 20px;
-  top: 11rem;
+  top: 19rem;
   left: 50%;
   margin-right: -50%;
-  transform: translate(-50%, -50%)
+  transform: translate(-50%, -50%);
+  background-color: cyan;
+  color: white;
+
+}
+#readMore:hover{
+  color: black;
+  background-color: white;
 }
 @media (max-width:89rem) {
   #text{
