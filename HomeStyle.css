@@ -95,8 +95,12 @@
   background-color: grey;
 }
 #slogan{
+  margin: 0;
   position: absolute;
-  float: center;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%)
 }
 @media (max-width:89rem) {
   #text{
