@@ -10,3 +10,11 @@
   font-family: title;
   src: url(Fonts/title-text.ttf);
 }
+@font-face {
+  font-family: Pistilli;
+  src: url(Fonturi/Pistilli-Roman.otf);
+}
+@font-face {
+  font-family: unchanged;
+  src: url(Fonturi/unchanged.ttf);
+}

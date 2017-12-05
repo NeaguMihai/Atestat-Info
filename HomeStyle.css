@@ -1,159 +1,212 @@
-#header{
-  position: absolute;
-  background-color: black;
-  width: 100%;
-  height: 11em;
-  top: 0px;
-  left: 0px;
-  padding:0px;
-  margin:0px;
+#header {
+    position: absolute;
+    background-color: black;
+    width: 100%;
+    height: 8em;
+    top: 0px;
+    left: 0px;
+    padding: 0px;
+    margin: 0px;
 }
-#logo{
-  position: relative;
-  font-size: 20px;
-  background-color: white;
-  width: 30rem;
-  height: 4rem;
-  top: 2.5rem;
-  left: 15vw;
+
+#logo {
+    position: relative;
+    font-size: 20px;
+    background-color: white;
+    width: 30rem;
+    height: 4rem;
+    top: 2rem;
+    left: 15vw;
 }
-#right{
-  float: right;
-  font-size: 50px;
-  position: absolute;
-  color: white;
-  top: 0.5rem;
-  right: 18rem;
+
+#navbarPos {
+    position: absolute;
+    top: 0;
+    float: right;
+    right: 0;
 }
-#navbarPos{
-  position: absolute;
-  top: 6.8em;
-  float: right;
-  right: 3rem;
+
+#navbar {
+    position: relative;
+    list-style: none;
+    right: 2rem;
+    top: 0px;
+    margin: 0px;
+    height: 100%;
 }
-#navbar{
-  position: relative;
-  list-style: none;
-  right: 10rem;
+
+#navbar li {
+    float: left;
+    height: 100%;
 
 }
 
-#navbar li{
-  float: left;
-  }
-#navbar li a{
-  display: block;
-  position: relative;
-  text-decoration: none;
-  font-weight:900;
-  padding: 0.5rem 1.5rem;
-  font-size: 30px;
-  margin-left: 2px;
-  color: white;
-  border-top-right-radius:15px;
-  border-bottom-left-radius: 15px;
+#navbar li a {
+    display: block;
+    position: relative;
+    text-decoration: none;
+    font-weight: 900;
+    height: 100%;
+    padding: 3rem 2rem;
+    font-size: 40px;
+    margin-left: 2px;
+    color: white;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
 }
-#navbar li a:hover{
-  background-color: #0a9c83;
-}
-#navbar li a:active{
-  background-color: #0a9c83;
-}
-#ad{
-  position: absolute;
-  background-color: grey;
-  width: 100%;
-  height: 40rem;
-  left: 0px;
-  top: 11rem;
-}
-#text{
-  font-size: 40px;
-}
-#text2{
-  font-size: 30px;
-}
-#poza{
-  position: absolute;
-  top: 2.5rem;
-  right: 20vw;
-  width: 40rem;
-  height: 35rem;
 
+#navbar li a:hover {
+    background-color: #0a9c83;
 }
-#textContainer{
-  position: absolute;
-  left: 15vw;
-  font-size: 20px;
+
+ #ad {
+   background-color: black;
+    position: absolute;
+    width: 100%;
+    height: 40rem;
+    z-index: -1;
+    left: 0px;
+    top: 8rem;
 }
-@media (max-width:89rem) {
-  #text{
-    font-size: 20px;
-  }
-  #text2{
-    font-size: 20px;
-    top: 1rem;
-  }
-  #poza{
-    width: 25rem;
-    height: 20rem;
-  }
-}
-@media (max-width: 980px){
-  #text{
-    font-size: 20px;
-  }
-  #text2{
-    font-size: 20px;
-    top: 1rem;
-  }
-  #poza{
+
+#text1 {
+  position: relative;
+    font-size: 55px;
     width: 20rem;
-    height: 15rem;
-  }
+    font-weight: 900;
+    top:2rem;
 }
-/*resize header*/
-@media (max-width: 89rem) {
-  #right{
-    top: 5rem;
-  }
-  #header{
-    height: 14rem;
-  }
-  #ad{
-    top: 14rem
-  }
-  #logo{
-    left: 27vw;
-  }
-  #navbarPos{
-    top: 9.8em;
-  }
-}
-@media (max-width: 900px) {
-  #logo{
-    width:20rem;
-    height: 3rem;
-    left: 27vw;
-  }
-  #right{
-    top: 3.5em;
-    font-size: 25px;
-  }
-  #header{
-    height: 10rem;
-  }
-  #ad{
-    top: 10rem;
 
-  }
-  #navbarPos{
-    top: 7.4rem;
-    right: 5vw;
-    }
-  #navbar li a{
-    font-size: 15px;
-    padding:0.3rem 1rem;
-  }
+#text2 {
+    top: 2rem;
+    font-size: 20px;
+    position: relative;
+    font-weight: 500;
+    width: 60rem;
+
 }
+#textContainer {
+  color: white;
+    position: absolute;
+    left: 20rem;
+    top: 0rem;
+}
+#poza {
+  z-index: -2;
+  opacity: 0.3;
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+#servicii {
+    position: absolute;
+    top: 48rem;
+    width: 100%;
+    left: 0px;
+    height: 65rem;
+  }
+.center{
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+#titluSlogan{
+  top: 2rem;
+  font-size: 50px;
+}
+#SloganServicii{
+  top: 10rem;
+  text-align: center;
+  font-size: 25px;
+  width: 50rem;
+}
+#readMore{
+  font-size: 35px;
+  top: 18rem;
+
+}
+#readMore a{
+  padding:1rem;
+  padding-left: 4rem;
+  padding-right: 4rem;
+  background-color:cyan;
+  color: white;
+  font-style: normal;
+  text-decoration: none;
+  border-radius: 5px;
+}
+#readMore a:hover{
+  color: cyan;
+  background-color:transparent ;
+}
+#ourService{
+  width: 100%;
+  height: 45rem;
+  position: absolute;
+  background-color:black;
+  top: 25rem;
+}
+#fundalService{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  opacity: 0.3;
+
+}
+#ourService h1{
+  text-align: center;
+  font-size: 50px;
+  top: 1rem;
+  color: white;
+}
+#centrare{
+  width: 70%;
+  display: flex;
+  color: white;
+  text-align: center;
+  top: 28rem;
+  height: 100%;
+}
+.imgrotund{
+  position: absolute;
+  width: 9rem;
+  height: 9rem;
+  border-radius: 50%;
+  top: 6rem;
+}
+.type{
+  top: -2rem;
+  text-align: center;
+  font-size: 30px;
+  padding: 0px;
+}
+.cas{
+  position: relative;
+  margin-left: 2%;
+  height: 70%;
+  width: 25rem;
+}
+.textInfo{
+  position: relative;
+  padding: 1rem;
+  font-size: 20px;
+  top: 15rem;
+}
+#contact{
+  position: absolute;
+  width: 100%;
+  height: 10rem;
+  left: 0;
+  top: 130rem;
+  background-color: #101010;
+}
+#contact h1{
+  position: absolute;
+  top:-8rem;
+  font-size: 60px;
+}
+#footer{
+  padding: 2rem;
+  color: white;
+  font-size: 20px;
 }
