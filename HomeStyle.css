@@ -1,24 +1,18 @@
-#header {
-    position: absolute;
-    background-color: black;
-    width: 100%;
-    height: 8em;
-    top: 0px;
-    left: 0px;
-    padding: 0px;
-    margin: 0px;
+body{
+  font-family: aleo, sans-serif;
 }
-
+#header {
+    background-color: #3f4049;
+    height: 8em;
+}
 #logo {
     position: relative;
     font-size: 20px;
-    background-color: white;
-    width: 30rem;
-    height: 4rem;
-    top: 2rem;
+    width: 21asrem;
+    height: 6rem;
+    top: 1rem;
     left: 15vw;
 }
-
 #navbarPos {
     position: absolute;
     top: 0;
@@ -56,16 +50,13 @@
 }
 
 #navbar li a:hover {
-    background-color: #0a9c83;
+    background-color: #C49A6C;
 }
 
  #ad {
-   background-color: black;
-    position: absolute;
-    width: 100%;
+    background-color: #000000;
     height: 40rem;
     z-index: -1;
-    left: 0px;
     top: 8rem;
 }
 
@@ -99,20 +90,12 @@
   height: 100%;
 }
 #servicii {
-    position: absolute;
     top: 48rem;
-    width: 100%;
-    left: 0px;
     height: 65rem;
   }
-.center{
-  position: absolute;
-  left: 50%;
-  transform: translate(-50%,-50%);
-}
 #titluSlogan{
   top: 2rem;
-  font-size: 50px;
+  font-size: 45px;
 }
 #SloganServicii{
   top: 10rem;
@@ -129,14 +112,14 @@
   padding:1rem;
   padding-left: 4rem;
   padding-right: 4rem;
-  background-color:cyan;
+  background-color: #C49A6C;
   color: white;
   font-style: normal;
   text-decoration: none;
   border-radius: 5px;
 }
 #readMore a:hover{
-  color: cyan;
+  color: #C49A6C;
   background-color:transparent ;
 }
 #ourService{
@@ -167,6 +150,21 @@
   top: 28rem;
   height: 100%;
 }
+#contact{
+  height: 10rem;
+  top: 130rem;
+  background-color: #3f4049;
+}
+#contact h1{
+  position: absolute;
+  top:-8rem;
+  font-size: 60px;
+}
+#footer{
+  padding: 2rem;
+  color: white;
+  font-size: 20px;
+}
 .imgrotund{
   position: absolute;
   width: 9rem;
@@ -192,21 +190,23 @@
   font-size: 20px;
   top: 15rem;
 }
-#contact{
+.center{
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+.background{
   position: absolute;
   width: 100%;
-  height: 10rem;
-  left: 0;
-  top: 130rem;
-  background-color: #101010;
+  top: 0px;
+  left: 0px;
+  padding: 0px;
+  margin: 0px;
 }
-#contact h1{
-  position: absolute;
-  top:-8rem;
-  font-size: 60px;
-}
-#footer{
-  padding: 2rem;
-  color: white;
-  font-size: 20px;
+
+@media screen and ( min-width: 1440px) {
+  #Logo{
+    width:1500px;
+    height: 2rem;
+  }
 }
