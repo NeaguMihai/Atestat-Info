@@ -8,34 +8,34 @@ body{
 #logo {
     position: relative;
     font-size: 20px;
-    width: 21asrem;
+    width: 15rem;
     height: 6rem;
     top: 1rem;
     left: 15vw;
 }
+
 #navbarPos {
     position: absolute;
     top: 0;
     float: right;
     right: 0;
-}
-
-#navbar {
+  }
+  
+  #navbar {
     position: relative;
     list-style: none;
     right: 2rem;
     top: 0px;
     margin: 0px;
     height: 100%;
-}
-
-#navbar li {
+  }
+  
+  #navbar li {
     float: left;
     height: 100%;
 
-}
-
-#navbar li a {
+  }
+  #navbar li a {
     display: block;
     position: relative;
     text-decoration: none;
@@ -47,39 +47,58 @@ body{
     color: white;
     border-bottom-right-radius: 10px;
     border-bottom-left-radius: 10px;
-}
-
-#navbar li a:hover {
+  }
+  
+  #navbar li a:hover {
     background-color: #C49A6C;
-}
-
+  }
+  
  #ad {
-    background-color: #000000;
-    height: 40rem;
-    z-index: -1;
-    top: 8rem;
-}
-
-#text1 {
-  position: relative;
-    font-size: 55px;
-    width: 20rem;
+   background-color: #000000;
+   height: 40rem;
+   z-index: -1;
+   top:8rem ;
+  }
+  
+  #text1 {
+    position: relative;
+    font-size: 3vw;
+    width: 20vw;
     font-weight: 900;
     top:2rem;
-}
-
-#text2 {
-    top: 2rem;
-    font-size: 20px;
+  }
+  #text2 {
+    top: 3rem;
+    font-size: 1.5vw;
     position: relative;
     font-weight: 500;
-    width: 60rem;
-
+    width: 50vw;
+    
 }
+@media screen and ( max-width:1250px) {
+   #logo{
+  width: 12rem;
+  height: 4rem;
+   top: 2rem;
+   left: 5vw;
+ }
+  #navbar li a {
+       font-size: 3vw;    
+       padding: 3rem 1rem;             
+ }
+ #text2{
+   top: 10vh;
+   width: 40vw;
+ }
+ #text1{
+   left: 9vw;
+ }
+}
+
 #textContainer {
   color: white;
     position: absolute;
-    left: 20rem;
+    left: 20vw;
     top: 0rem;
 }
 #poza {
@@ -202,11 +221,4 @@ body{
   left: 0px;
   padding: 0px;
   margin: 0px;
-}
-
-@media screen and ( min-width: 1440px) {
-  #Logo{
-    width:1500px;
-    height: 2rem;
-  }
 }
