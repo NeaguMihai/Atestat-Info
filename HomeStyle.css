@@ -1,10 +1,9 @@
 body{
   font-family: aleo, sans-serif;
-  margin:0px;
 }
 #header {
     background-color: #3f4049;
-    height: 8em;
+    height: 8rem;
 }
 #logo {
     position: relative;
@@ -76,33 +75,14 @@ body{
     width: 50vw;
 
 }
-@media screen and ( max-width:1250px) {
-   #logo{
-  width: 12rem;
-  height: 4rem;
-   top: 2rem;
-   left: 5vw;
- }
-  #navbar li a {
-       font-size: 3vw;
-       padding: 3rem 1rem;
- }
- #text2{
-   top: 10vh;
-   width: 40vw;
- }
- #text1{
-   left: 9vw;
- }
-}
 
 #textContainer {
   color: white;
-    position: absolute;
+  position: absolute;
     left: 20vw;
     top: 0rem;
-}
-#poza {
+  }
+  #poza {
   z-index: -2;
   opacity: 0.3;
   position: relative;
@@ -115,29 +95,31 @@ body{
   }
 #titluSlogan{
   top: 2rem;
-  font-size: 45px;
+  text-align:center;
+  font-size: 2vw;
 }
 #SloganServicii{
   top: 10rem;
   text-align: center;
-  font-size: 25px;
-  width: 50rem;
+  font-size: 1.5vw;
+  width: 50vw;
 }
 #readMore{
-  font-size: 35px;
+  font-size: 3.5vw;
   top: 18rem;
 
 }
 #readMore a{
   padding:1rem;
-  padding-left: 4rem;
-  padding-right: 4rem;
+  padding-left: 4vw;
+  padding-right: 4vw;
   background-color: #C49A6C;
   color: white;
   font-style: normal;
   text-decoration: none;
   border-radius: 5px;
 }
+
 #readMore a:hover{
   color: #C49A6C;
   background-color:transparent ;
@@ -158,56 +140,58 @@ body{
 }
 #ourService h1{
   text-align: center;
-  font-size: 50px;
+  font-size: 4vw;
   top: 1rem;
   color: white;
 }
+
 #centrare{
   width: 70%;
   display: flex;
+  font-size: 200px;
   color: white;
   text-align: center;
   top: 28rem;
   height: 100%;
 }
 #contact{
-  height: 10rem;
+  height: 11rem;
   top: 130rem;
   background-color: #3f4049;
 }
 #contact h1{
   position: absolute;
   top:-8rem;
-  font-size: 60px;
+  font-size: 4vw;
 }
 #footer{
   padding: 2rem;
   color: white;
-  font-size: 20px;
+  font-size: 2vw;
 }
 .imgrotund{
   position: absolute;
-  width: 9rem;
-  height: 9rem;
+  width: 7.5vw;
+  height: 7.5vw;
   border-radius: 50%;
   top: 6rem;
 }
 .type{
-  top: -2rem;
+  top: -2vw;
   text-align: center;
-  font-size: 30px;
+  font-size: 1.5vw;
   padding: 0px;
 }
 .cas{
   position: relative;
-  margin-left: 2%;
+  margin-left: 2vw;
   height: 70%;
   width: 25rem;
 }
 .textInfo{
   position: relative;
   padding: 1rem;
-  font-size: 20px;
+  font-size: 1vw;
   top: 15rem;
 }
 .center{
@@ -222,4 +206,32 @@ body{
   left: 0px;
   padding: 0px;
   margin: 0px;
+}
+@media screen and ( max-width:1250px) {
+  #logo{
+ width: 12rem;
+ height: 4rem;
+  top: 2rem;
+  left: 5vw;
+}
+ #navbar li a {
+      font-size: 4vw;
+      padding: 4vw 1vw;
+}
+#text2{
+  font-size: 2vw;
+  top: 15rem;
+  width: 50vw;
+  left: 50%;
+ transform: translate(-50%,-50%);
+}
+#text1{
+ top: 10vw;
+ left: 50%;
+ transform: translate(-50%,-50%);
+}
+.type{
+  top: -7vw;
+}
+
 }
