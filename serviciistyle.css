@@ -1,0 +1,83 @@
+body{
+  font-family: aleo, sans-serif;
+margin:0px;
+}
+#header {
+    background-color: #3f4049;
+    height: 8em;
+}
+#logo {
+    position: relative;
+    font-size: 20px;
+    width: 15rem;
+    height: 6rem;
+    top: 1rem;
+    left: 15vw;
+}
+
+#navbarPos {
+    position: absolute;
+    top: 0;
+    float: right;
+    right: 0;
+  }
+
+  #navbar {
+    position: relative;
+    list-style: none;
+    right: 2rem;
+    top: 0px;
+    margin: 0px;
+    height: 100%;
+  }
+
+  #navbar li {
+    float: left;
+    height: 100%;
+
+  }
+  #navbar li a {
+    display: block;
+    position: relative;
+    text-decoration: none;
+    font-weight: 900;
+    height: 100%;
+    padding: 3rem 2rem;
+    font-size: 40px;
+    margin-left: 2px;
+    color: white;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+  }
+
+  #navbar li a:hover {
+    background-color: #C49A6C;
+  }
+  #contact{
+    height: 10rem;
+    top: 130rem;
+    background-color: #3f4049;
+  }
+  #contact h1{
+    position: absolute;
+    top:-8rem;
+    font-size: 60px;
+  }
+  #footer{
+    padding: 2rem;
+    color: white;
+    font-size: 20px;
+  }
+  .center{
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%,-50%);
+  }
+  .background{
+    position: absolute;
+    width: 100%;
+    top: 0px;
+    left: 0px;
+    padding: 0px;
+    margin: 0px;
+  }
