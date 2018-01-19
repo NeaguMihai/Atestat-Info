@@ -1,16 +1,17 @@
 body{
   font-family: aleo, sans-serif;
-margin:0px;
+  margin:0px;
+  background-color: #EBEBEC;
 }
 #header {
     background-color: #3f4049;
-    height: 8em;
+    height: 6em;
 }
 #logo {
     position: relative;
     font-size: 20px;
-    width: 15rem;
-    height: 6rem;
+    width: 10rem;
+    height: 4rem;
     top: 1rem;
     left: 15vw;
 }
@@ -42,8 +43,8 @@ margin:0px;
     text-decoration: none;
     font-weight: 900;
     height: 100%;
-    padding: 3rem 2rem;
-    font-size: 40px;
+    padding: 2rem 1rem;
+    font-size: 30px;
     margin-left: 2px;
     color: white;
     border-bottom-right-radius: 10px;
@@ -53,9 +54,43 @@ margin:0px;
   #navbar li a:hover {
     background-color: #C49A6C;
   }
+  .container{
+    color: #383941;
+    background-color: #D3D3D4;
+    position: relative;
+    width: 75%;
+    margin-top: 7%;
+    left: 47%;
+    transform: translate(-50%, -50%);
+    top: 40rem;
+    border-radius: 12px;
+    padding:2rem;
+  }
+
+  .title{
+    text-align: center;
+    font-size: 40px;
+  }
+  .description{
+    position: relative;
+    padding-left: 20%;
+    padding-right: 20%;
+    font-size: 20px;
+    text-align: center;
+    top: 2rem;
+  }
+  .item{
+    position: relative;
+    font-size: 20px;
+    margin-top: 4%;
+    left: 20%;
+    top: 1rem
+  }
+
   #contact{
-    height: 10rem;
-    top: 130rem;
+    margin-top: 20%;
+    position: relative;
+    height:10rem;
     background-color: #3f4049;
   }
   #contact h1{
@@ -74,10 +109,31 @@ margin:0px;
     transform: translate(-50%,-50%);
   }
   .background{
-    position: absolute;
+
     width: 100%;
     top: 0px;
     left: 0px;
     padding: 0px;
     margin: 0px;
+  }
+  @media screen and ( max-width:1250px) {
+    #logo{
+   width: 8rem;
+   height: 3rem;
+    top: 2rem;
+    left: 5vw;
+  }
+   #navbar li a {
+        font-size: 3vw;
+        padding: 3.5vw 1vw;
+  }
+  #contact h1 {
+    top: -6rem;
+        font-size: 40px;
+}
+  #footer{
+    padding: 1rem;
+    font-size: 20px;
+  }
+
   }
